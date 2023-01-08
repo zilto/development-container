@@ -1,0 +1,11 @@
+image_name: dev-container-image
+container_name: dev-container
+workspace: datascience
+repo_volume_source: C:\projects\project_01\src  # directory in host OS containing the code (/src)
+repo_volume_target: /workspaces/datascience/
+secrets_volume_source: C:\projects\project_01\src\.devcontainer
+secrets_volume_target: /root
+jupyter_port_source: 8888
+jupyter_port_target: 8888
+USERNAME: default_user
+

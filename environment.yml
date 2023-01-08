@@ -1,0 +1,11 @@
+# defines the virtual environment within the container
+name: dev-container
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn

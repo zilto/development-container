@@ -1,0 +1,6 @@
+# base flow_config
+defaults:
+  - _self_
+  - docker
+  - override hydra/hydra_logging: disabled
+  - override hydra/job_logging: disabled
