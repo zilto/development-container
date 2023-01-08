@@ -1,4 +1,5 @@
 # Development container
+Quickly setup a Linux environment to enable reproducible experimentation
 
 ## Dependencies
 - Docker Desktop
